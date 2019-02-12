@@ -1,26 +1,21 @@
 import React, { Component } from "react";
 
-import Droppable from "./Droppable/Droppable";
-import Draggable from "./Draggable/Draggable";
-import EditableInput from "../List/EditableInput";
-import AddNewList from "../List/NewList";
-import AddNewItem from "../List/NewItem";
-import "./Dnd.css";
+import Droppable from "../components/Dnd/Droppable/Droppable";
+import Draggable from "../components/Dnd/Draggable/Draggable";
+import EditableInput from "../components/List/EditableInput";
+import AddNewList from "../components/List/NewList";
+import AddNewItem from "../components/List/NewItem";
+import "../components/Dnd/Dnd.css";
 
 class Board extends Component {
   constructor(props) {
     super(props);
     this.state = {};
-    // this.state = {
-    //   list1: [1, 2, 3, 8],
-    //   list2: [4, 5, 3]
-    // };
     this.addNewList = this.addNewList.bind(this);
     this.addNewItem = this.addNewItem.bind(this);
   }
 
   addNewItem(content, list) {
-    // console.log("list :", list);
     let newItems = this.state[list].slice();
     newItems.push(content);
     this.setState({
@@ -35,7 +30,6 @@ class Board extends Component {
   render() {
     let currentView = this.state;
     let view = [];
-    let keyCount = 0;
     for (const list in currentView) {
       if (currentView.hasOwnProperty(list)) {
         const currentList = currentView[list];

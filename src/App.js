@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Heading from "./components/Heading";
-import Board from "./components/Dnd/Board";
+import Board from "./containers/Board";
 import "./App.css";
 
 class App extends Component {
