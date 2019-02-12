@@ -1,0 +1,63 @@
+.list-head {
+  font-size: 1.4rem;
+  color: grey;
+  padding: 5px 0;
+}
+
+.wrapper {
+  width: 100%;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.droppable {
+  background-color: #dfe3e9;
+  margin: 0 0 2rem 2rem;
+  box-shadow: 1px 1px 1px 2px #ccc;
+  border-top-style: solid;
+  border-top-color: coral;
+  max-width: 30% !important ;
+}
+
+.list-item {
+  background-color: #fdfdfd;
+  margin: 20px 0;
+  padding: 5px 10px;
+  min-height: 100px;
+  text-align: center;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.hover {
+  background-color: rgba(9, 45, 66, 0.08);
+}
+
+.edit-button {
+  padding: 1px 6px !important;
+}
+
+.btn-danger {
+  margin: -1px 10px;
+}
+.add-new-list {
+  margin: 1rem 1rem;
+}
+.add-new-item {
+  margin: 1rem 0;
+}
+
+.add-list-input {
+  display: inline-block !important;
+  max-width: 400px;
+  margin: 0 10px 5px 0;
+  height: 45px !important;
+}
+
+.btn {
+  margin-top: 5px;
+}
+
+.move-down {
+  margin-top: 100px;
+}
