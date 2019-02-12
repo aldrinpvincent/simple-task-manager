@@ -4,6 +4,10 @@ Simple task management application using ReactJS and Bootstrap
 
 In the project directory, you can run:
 
+### `npm install`
+
+To install all dependancies
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
