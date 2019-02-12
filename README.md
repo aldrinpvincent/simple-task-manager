@@ -1,6 +1,16 @@
 # Simple Task Manager
 
-Simple task management application using ReactJS and Bootstrap
+Simple task management application using ReactJS and Bootstrap. Supports the following operations
+
+- Add new list
+
+- Add items to list
+
+- Delete items from the list,
+
+- Edit item description.
+
+- Drag and drop of items between lists.
 
 In the project directory, you can run:
 
