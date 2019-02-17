@@ -3,14 +3,13 @@ class EditableInput extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: "hiedit",
+      text: "",
       editing: false,
       hover: false
     };
     this.toggleEditMode = this.toggleEditMode.bind(this);
     this.hoverOn = this.hoverOn.bind(this);
     this.hoverOff = this.hoverOff.bind(this);
-    this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
     this.deleteItem = this.deleteItem.bind(this);
   }
@@ -27,10 +26,6 @@ class EditableInput extends Component {
     });
   }
 
-  handleChange(event) {
-    this.setState({ text: event.target.value });
-  }
-
   deleteItem(e) {
     var elem = e.target.parentNode;
     elem.parentNode.removeChild(elem);
@@ -39,7 +34,8 @@ class EditableInput extends Component {
 
   handleSubmit(event) {
     this.setState({
-      editing: false
+      editing: false,
+      text: this.refs.inputText.value
     });
     event.preventDefault();
   }
@@ -55,9 +51,9 @@ class EditableInput extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <textarea
-          value={this.state.text}
-          onChange={this.handleChange}
+          defaultValue={this.state.text}
           className="form-control"
+          ref="inputText"
           autoFocus
           required
         />
