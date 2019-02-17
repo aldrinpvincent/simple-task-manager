@@ -1,7 +1,7 @@
 {
   "main.css": "/simple-task-manager/static/css/main.ec921299.chunk.css",
-  "main.js": "/simple-task-manager/static/js/main.ccd7f15b.chunk.js",
-  "main.js.map": "/simple-task-manager/static/js/main.ccd7f15b.chunk.js.map",
+  "main.js": "/simple-task-manager/static/js/main.97de8b50.chunk.js",
+  "main.js.map": "/simple-task-manager/static/js/main.97de8b50.chunk.js.map",
   "static/css/1.05a27ae1.chunk.css": "/simple-task-manager/static/css/1.05a27ae1.chunk.css",
   "static/js/1.892d80b2.chunk.js": "/simple-task-manager/static/js/1.892d80b2.chunk.js",
   "static/js/1.892d80b2.chunk.js.map": "/simple-task-manager/static/js/1.892d80b2.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/main.ec921299.chunk.css.map": "/simple-task-manager/static/css/main.ec921299.chunk.css.map",
   "static/css/1.05a27ae1.chunk.css.map": "/simple-task-manager/static/css/1.05a27ae1.chunk.css.map",
   "index.html": "/simple-task-manager/index.html",
-  "precache-manifest.6016d5c1b9b1b4b0bf3222a5121e9e5d.js": "/simple-task-manager/precache-manifest.6016d5c1b9b1b4b0bf3222a5121e9e5d.js",
+  "precache-manifest.f4d480beb51f5793563b908c855363b6.js": "/simple-task-manager/precache-manifest.f4d480beb51f5793563b908c855363b6.js",
   "service-worker.js": "/simple-task-manager/service-worker.js"
 }
